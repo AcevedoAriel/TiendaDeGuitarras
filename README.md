@@ -18,5 +18,5 @@
    git clone https://github.com/AcevedoAriel/TiendaDeGuitarras.git
    ```
 2. Activa **Apache** y **MySQL** desde el panel de XAMPP.
-3. Importa la base de datos *(si utilizas una)*.
+3. Importa la base de datos *(está en la carpeta base de datos y documentacion) e importalo en el xamp de mysql*.
 4. Abre tu navegador e ingresa a: `http://localhost/CI_AcevedoAriel/public/`
