@@ -1,0 +1,16 @@
+Clientes:
+correo: ale@hotmail.com
+contraseña: 123456789
+
+correo: maria1@hotmail.com
+contraseña: 123456789
+
+correo: vero@hotmail.com
+contraseña: 123456789
+
+correo: gomez@hotmail.com
+contraseña: 123456789
+
+Administrador:
+correo: arielacevedo@hotmail.com
+contraseña: 123456789
