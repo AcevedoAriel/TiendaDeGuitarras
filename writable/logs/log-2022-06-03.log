@@ -1,0 +1,29 @@
+CRITICAL - 2022-06-03 19:33:04 --> Undefined index: id_producto
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\producto\listar_productos_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/product...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(100): view('backEnd/product...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->gestionar_productos()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 19:34:35 --> Undefined index: id_producto
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\producto\listar_productos_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/product...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(100): view('backEnd/product...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->gestionar_productos()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 19:43:08 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->activar_producto('7')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

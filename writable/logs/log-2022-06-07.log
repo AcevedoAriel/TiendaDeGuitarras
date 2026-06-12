@@ -1,0 +1,179 @@
+CRITICAL - 2022-06-07 07:11:27 --> Undefined variable $producto
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->eliminar_producto('9')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 07:26:26 --> Undefined variable $img
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->actualizar_producto()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 07:34:15 --> Undefined variable $img
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->actualizar_producto()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-07 07:40:42 --> Operand should contain 1 column(s)
+CRITICAL - 2022-06-07 07:40:42 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `product...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(140): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->actualizar_producto()
+#9 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#10 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-07 07:50:16 --> Undefined variable $producto
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 139)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->actualizar_producto()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-07 07:57:45 --> Operand should contain 1 column(s)
+CRITICAL - 2022-06-07 07:57:45 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `product...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(167): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->actualizar_producto()
+#9 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#10 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-07 07:59:02 --> Operand should contain 1 column(s)
+CRITICAL - 2022-06-07 07:59:02 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `product...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(139): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->actualizar_producto()
+#9 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#10 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-07 08:06:13 --> Operand should contain 1 column(s)
+CRITICAL - 2022-06-07 08:06:13 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `product...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(139): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->actualizar_producto()
+#9 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#10 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-07 09:24:32 --> Call to a member function insert() on null
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-07 09:30:43 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:05:44 --> Undefined variable $row
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\carrito_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/carrito...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(11): view('backEnd/carrito...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->mostrarCarrito()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 10:09:27 --> Undefined variable $row
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\carrito_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/carrito...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(11): view('backEnd/carrito...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->mostrarCarrito()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 10:13:46 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:14:12 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:14:20 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:14:49 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:15:31 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:15:43 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:17:28 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 10:20:49 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->agregarCarrito()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

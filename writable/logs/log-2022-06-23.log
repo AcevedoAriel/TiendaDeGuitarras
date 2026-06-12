@@ -1,0 +1,36 @@
+CRITICAL - 2022-06-23 17:02:16 --> Undefined variable: item
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->guardar_ventas()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-23 17:48:49 --> Illegal string offset 'producto_stock'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->guardar_ventas()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-23 20:12:31 --> Undefined variable: cart1
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\carrito_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/carrito...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(15): view('backEnd/carrito...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->verCarrito()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-23 20:16:57 --> Undefined variable: cart1
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\carrito_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/carrito...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\carrito_Controller.php(15): view('backEnd/carrito...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\carrito_Controller->verCarrito()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\carrito_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

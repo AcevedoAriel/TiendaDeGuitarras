@@ -1,0 +1,48 @@
+CRITICAL - 2022-05-15 21:07:55 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-15 21:10:45 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-15 21:12:14 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-05-15 21:12:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Usuario_controller.php(183): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->registrar_consulta()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-15 21:13:32 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-05-15 21:13:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Usuario_controller.php(183): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->registrar_consulta()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

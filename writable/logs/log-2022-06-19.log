@@ -1,0 +1,290 @@
+CRITICAL - 2022-06-19 10:22:57 --> syntax error, unexpected '=', expecting ')'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\prod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\prod...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(65): spl_autoload_call('App\\Models\\prod...')
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-19 10:23:34 --> syntax error, unexpected '=', expecting ')'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\prod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\prod...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(65): spl_autoload_call('App\\Models\\prod...')
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-19 10:25:06 --> Unknown column 'producto_categoriacategoria_id' in 'on clause'
+CRITICAL - 2022-06-19 10:25:06 --> Unknown column 'producto_categoriacategoria_id' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\producto_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(81): App\Models\producto_Model->filtrar(NULL)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->filtrarPorCategoria()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-19 10:26:14 --> Unknown column 'producto_categoriacategoria_id' in 'on clause'
+CRITICAL - 2022-06-19 10:26:14 --> Unknown column 'producto_categoriacategoria_id' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\producto_Model.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(81): App\Models\producto_Model->filtrar('1')
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->filtrarPorCategoria()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-19 10:26:44 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(87): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->filtrarPorCategoria()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 10:27:15 --> Undefined variable: categoria1
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(87): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->filtrarPorCategoria()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 10:28:04 --> Undefined variable: producto_categoria
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 17:33:19 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(87): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->filtrarPorCategoria()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 17:33:22 --> Undefined variable: producto1
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 17:34:18 --> Undefined variable: producto1
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 17:34:37 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 19:04:47 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\registro_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/regi...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(53): view('contenidos/regi...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 19:08:51 --> Undefined variable: usuarios
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\registro_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/regi...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(53): view('contenidos/regi...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 19:09:09 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\registro_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/regi...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(53): view('contenidos/regi...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 19:11:00 --> Undefined variable: userCliente
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\registro_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/regi...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(53): view('contenidos/regi...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->registro()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 19:21:15 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Usuario_controller.php(172): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->login_usuario()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-19 19:21:49 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Usuario_controller.php(172): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->login_usuario()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-19 20:13:55 --> Undefined index: producto_id
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 21:10:49 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 21:15:26 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 21:15:34 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 21:18:13 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 21:27:48 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 21:45:13 --> Class 'App\Filters\Auth' not found
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 21:46:06 --> Class 'App\Filters\Auth' not found
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('agregar_product...', 'before')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-19 21:47:51 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 21:49:50 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\productos_cat_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/prod...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(72): view('contenidos/prod...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 23:12:33 --> Undefined variable: stock
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->guardar_ventas()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 23:30:27 --> Undefined variable: stock
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->guardar_ventas()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

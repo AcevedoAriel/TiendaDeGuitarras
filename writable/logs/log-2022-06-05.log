@@ -1,0 +1,53 @@
+CRITICAL - 2022-06-05 20:10:59 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->activar_producto('7')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-05 20:12:48 --> Undefined variable: producto
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->activar_producto('7')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-05 20:27:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\producto\editar_producto_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/product...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(111): view('backEnd/product...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->editar_producto()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-05 20:30:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\producto\editar_producto_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/product...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(111): view('backEnd/product...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->editar_producto()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-05 20:58:27 --> Too few arguments to function App\Controllers\Producto_Controller::editar_producto(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->editar_producto()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-05 20:59:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\producto\editar_producto_view.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/product...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Producto_Controller.php(111): view('backEnd/product...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Producto_Controller->editar_producto()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

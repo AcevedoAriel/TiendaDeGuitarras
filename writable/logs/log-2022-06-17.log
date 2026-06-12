@@ -1,0 +1,453 @@
+CRITICAL - 2022-06-17 11:20:51 --> Undefined variable: detalle_ventas
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\factura_view.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/factura...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(57): view('backEnd/factura...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 11:56:37 --> Undefined index: venta_id
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\factura_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/factura...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(57): view('backEnd/factura...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-17 14:28:02 --> Unknown column 'detalle_ventas.venta' in 'on clause'
+CRITICAL - 2022-06-17 14:28:02 --> Unknown column 'detalle_ventas.venta' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(53): App\Models\vDetalle_Model->getVentaAll()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-17 14:29:14 --> Unknown column 'detalle_ventas.venta' in 'on clause'
+CRITICAL - 2022-06-17 14:29:14 --> Unknown column 'detalle_ventas.venta' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(53): App\Models\vDetalle_Model->getVentaAll()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-17 14:35:38 --> Unknown column 'detalle_ventas.usuarios' in 'on clause'
+CRITICAL - 2022-06-17 14:35:38 --> Unknown column 'detalle_ventas.usuarios' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(53): App\Models\vDetalle_Model->getVentaAll()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-17 14:37:56 --> Unknown column 'detalle_ventas.venta' in 'on clause'
+CRITICAL - 2022-06-17 14:37:56 --> Unknown column 'detalle_ventas.venta' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(53): App\Models\vDetalle_Model->getVentaAll()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-17 14:42:38 --> Unknown column 'venta.id_venta' in 'on clause'
+CRITICAL - 2022-06-17 14:42:38 --> Unknown column 'venta.id_venta' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(53): App\Models\vDetalle_Model->getVentaAll()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-17 14:43:23 --> Undefined index: id_cliente
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\factura_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/factura...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(57): view('backEnd/factura...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 15:41:48 --> Array to string conversion
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\contenidos\iniciar_sesion_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('contenidos/inic...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(60): view('contenidos/inic...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->iniciar_sesion()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 16:01:30 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-17 16:11:08 --> syntax error, unexpected ':', expecting ']'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-06-17 16:16:56 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('ver_carrito', 'before')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-17 16:17:47 --> Call to a member function isLoggedIn() on null
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('ver_carrito', 'before')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:18:16 --> Call to a member function is_logged() on null
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('ver_carrito', 'before')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 16:18:20 --> Trying to get property 'is_logged' of non-object
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Filters\Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('ver_carrito', 'before')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:18:31 --> Trying to get property 'is_logged' of non-object
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Filters\Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('ver_carrito', 'before')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 16:41:41 --> Undefined index: producto_nombre
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\factura_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/factura...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(59): view('backEnd/factura...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 16:53:00 --> Call to undefined method App\Models\vDetalle_Model::getVentaAll
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(53): CodeIgniter\Model->__call('getVentaAll', Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->miFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 18:48:17 --> Call to undefined method App\Models\venta_Model::getDetalleId
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(54): CodeIgniter\Model->__call('getDetalleId', Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleVenta()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 18:49:34 --> Call to undefined method App\Models\venta_Model::getDetalleId
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(54): CodeIgniter\Model->__call('getDetalleId', Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleVenta()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 18:53:22 --> Call to undefined method App\Models\venta_Model::getDetalleId
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(54): CodeIgniter\Model->__call('getDetalleId', Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleVenta()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 19:00:58 --> Call to undefined method App\Models\venta_Model::getDetalleId
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(54): CodeIgniter\Model->__call('getDetalleId', Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleVenta()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-17 19:01:43 --> Unknown column 'detalle_ventas.venta_id' in 'on clause'
+CRITICAL - 2022-06-17 19:01:43 --> Unknown column 'detalle_ventas.venta_id' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(54): App\Models\vDetalle_Model->getDetalleId(NULL)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleVenta()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-17 19:42:07 --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-17 19:45:38 --> Unknown column 'detalle_ventas.venta_id' in 'on clause'
+CRITICAL - 2022-06-17 19:45:38 --> Unknown column 'detalle_ventas.venta_id' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId(NULL)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-17 20:03:48 --> Undefined variable: venta
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\detalle_factura_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/detalle...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(68): view('backEnd/detalle...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 20:03:58 --> Undefined variable: detalle_venta
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\detalle_factura_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/detalle...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(68): view('backEnd/detalle...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-17 20:06:14 --> Unknown column 'detalle_ventas.venta_id' in 'on clause'
+CRITICAL - 2022-06-17 20:06:14 --> Unknown column 'detalle_ventas.venta_id' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId(NULL)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-17 20:12:21 --> Call to undefined method App\Models\venta_Model::getDetalleId
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): CodeIgniter\Model->__call('getDetalleId', Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-17 20:14:33 --> Unknown column 'venta.id_cliente' in 'on clause'
+CRITICAL - 2022-06-17 20:14:33 --> Unknown column 'venta.id_cliente' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId(NULL)
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-17 20:15:30 --> Unknown column 'venta.id_cliente' in 'on clause'
+CRITICAL - 2022-06-17 20:15:30 --> Unknown column 'venta.id_cliente' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-17 20:17:56 --> Unknown column 'venta.id_cliente' in 'on clause'
+CRITICAL - 2022-06-17 20:17:56 --> Unknown column 'venta.id_cliente' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-17 20:18:37 --> Unknown column 'ventas_detalle.id_cliente' in 'on clause'
+CRITICAL - 2022-06-17 20:18:37 --> Unknown column 'ventas_detalle.id_cliente' in 'on clause'
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Models\vDetalle_Model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#8 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-17 20:20:16 --> Too few arguments to function App\Models\vDetalle_Model::getDetalleId(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:20:22 --> Too few arguments to function App\Models\vDetalle_Model::getDetalleId(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:20:35 --> Too few arguments to function App\Models\vDetalle_Model::getDetalleId(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:24:18 --> Too few arguments to function App\Models\venta_Model::getDetalleId(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\venta_Model->getDetalleId()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:29:38 --> Too few arguments to function App\Models\venta_Model::getDetalleId(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\venta_Model->getDetalleId()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:33:09 --> Too few arguments to function App\Models\venta_Model::getDetalleId(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\venta_Model->getDetalleId()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:33:30 --> Too few arguments to function App\Models\venta_Model::getDetalleId(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\venta_Model->getDetalleId()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:34:35 --> Call to undefined method App\Models\venta_Model::getDetalleId
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): CodeIgniter\Model->__call('getDetalleId', Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:34:54 --> Too few arguments to function App\Models\vDetalle_Model::getDetalleId(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:38:27 --> Too few arguments to function App\Models\vDetalle_Model::getDetalleId(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php on line 64 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): App\Models\vDetalle_Model->getDetalleId()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:39:38 --> Undefined variable: id
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:42:04 --> Call to undefined method App\Models\venta_Model::getDetalleId
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(64): CodeIgniter\Model->__call('getDetalleId', Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 20:54:20 --> Undefined variable: venta
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\detalle_factura_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/detalle...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(68): view('backEnd/detalle...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 21:01:29 --> Undefined variable: detalle_venta
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\detalle_factura_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/detalle...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(68): view('backEnd/detalle...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 21:09:21 --> Too few arguments to function App\Controllers\venta_Controller::DetalleFactura(), 0 passed in C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->DetalleFactura()
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 22:13:59 --> Undefined index: id_venta
+#0 C:\xampp\htdocs\CI_AcevedoAriel\app\Views\backEnd\listado_factura_view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI_AcevedoAriel\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI_AcevedoAriel\system\Common.php(1089): CodeIgniter\View\View->render('backEnd/listado...', Array, true)
+#4 C:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\venta_Controller.php(57): view('backEnd/listado...')
+#5 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\venta_Controller->listarFactura()
+#6 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\venta_Controller))
+#7 C:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

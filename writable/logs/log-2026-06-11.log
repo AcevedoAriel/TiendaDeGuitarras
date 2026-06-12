@@ -1,0 +1,81 @@
+CRITICAL - 2026-06-11 21:21:00 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\CI_AcevedoAriel\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\CI_AcevedoAriel\spark(45): require('D:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2026-06-11 14:58:18 --> Error connecting to the database: Unknown database 'bd_acevedoariel'
+CRITICAL - 2026-06-11 14:58:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bd_acevedoariel'
+#0 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI_AcevedoAriel\app\Models\producto_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(66): App\Models\producto_Model->getProductoAll()
+#4 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#5 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2026-06-11 14:58:44 --> Error connecting to the database: Unknown database 'bd_acevedoariel'
+CRITICAL - 2026-06-11 14:58:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bd_acevedoariel'
+#0 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI_AcevedoAriel\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI_AcevedoAriel\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('arieel.zurdo199...', 'mail', Array, NULL)
+#4 D:\xampp\htdocs\CI_AcevedoAriel\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('mail', 'mail', 'arieel.zurdo199...', Array, Array)
+#5 D:\xampp\htdocs\CI_AcevedoAriel\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Usuario_controller.php(130): CodeIgniter\Controller->validate(Array)
+#7 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->login_usuario()
+#8 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#9 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2026-06-11 14:58:50 --> Error connecting to the database: Unknown database 'bd_acevedoariel'
+CRITICAL - 2026-06-11 14:58:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bd_acevedoariel'
+#0 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI_AcevedoAriel\app\Models\producto_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(66): App\Models\producto_Model->getProductoAll()
+#4 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#5 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2026-06-11 14:59:25 --> Error connecting to the database: Unknown database 'bd_acevedoariel'
+CRITICAL - 2026-06-11 14:59:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bd_acevedoariel'
+#0 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI_AcevedoAriel\app\Models\producto_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(66): App\Models\producto_Model->getProductoAll()
+#4 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#5 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2026-06-11 23:15:33 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2026-06-11 23:15:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI_AcevedoAriel\app\Models\producto_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(66): App\Models\producto_Model->getProductoAll()
+#4 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#5 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2026-06-11 23:19:35 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2026-06-11 23:19:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\CI_AcevedoAriel\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\CI_AcevedoAriel\app\Models\producto_Model.php(33): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\CI_AcevedoAriel\app\Controllers\Home.php(66): App\Models\producto_Model->getProductoAll()
+#4 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(832): App\Controllers\Home->productos_cat()
+#5 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\CI_AcevedoAriel\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CI_AcevedoAriel\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
